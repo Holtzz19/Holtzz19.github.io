@@ -1,0 +1,157 @@
+# Site
+repository: Holtzz19/Holtzz19.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: David Holtzman
+title: Student at The University of Ottawa
+email: david@holtzz.com
+phone: (613) 363-5400
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+twitter_username: Holtzz19
+# github_username: Holtzz19
+# stackoverflow_username: "00000001"
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+instagram_username: Holtzxz
+linkedin_username: Holtzz
+# pinterest_username: 
+# youtube_username: @Holtzz
+
+# Additional icon links
+additional_links:
+- title: holtzz.com
+  icon: fas fa-globe
+  url: https://www.holtzz.com
+  
+- title: download my resume
+  icon: fas fa-download
+  url: https://Holtzz19.github.io/cv.pdf
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  As a highly self-motivated and passionate student, I am currently pursuing my Bachelor's degree in Psychology at the University of Ottawa. I am in nearing my third year, and I am dedicated to achieving academic excellence and personal growth. My long-term goal is to attend law school and obtain my JD, and I am fully committed to working hard and overcoming any challenges that may arise in order to achieve this goal. I firmly believe that with dedication, persistence, and a strong work ethic, anything is possible, and I am determined to prove this through my academic and professional pursuits. 
+  
+  Throughout my academic journey, I have developed a deep interest in the field of psychology, and I am continually seeking out new opportunities to expand my knowledge and skills. I am an avid reader and enjoy exploring a variety of topics related to human behavior, cognition, and emotion. In addition to my academic pursuits, I am actively involved in various extracurricular activities, including student organizations and Online courses. These experiences have allowed me to develop strong leadership skills, effective communication abilities, and a passion for community engagement. 
+  
+  Overall, I am a driven and dedicated person who is fully committed to achieving my goals and making a positive impact in the world. I am excited for the opportunities and challenges that lie ahead, and I am confident in my ability to succeed through hard work, perseverance, and a positive attitude.
+
+content:
+  - title: Skills & Languages
+    layout: list
+    content:
+      - title: Languages
+        layout: left
+        description: |
+          * English <mark>Native</mark>
+          * French <mark>High school - Immersion</mark>
+      - title: Soft Skills
+        layout: left
+        description: |
+          * Leadership
+          * Public Speaking
+          * Communication
+          * Problem Solving
+          * Research
+      - title: Professional Skills
+        layout: left
+        description: |
+          * Excel
+          * PowerPoint
+          * Word
+          * Video editing
+      - title: Computers
+        layout: left
+        description: |
+          * Building
+          * Maintenance
+          * Repair
+          * Troubleshooting
+          
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Ontario Travel and Information Centre - Bainsville
+        link: destinationontario.com
+        sub_title: Travel Counsellor
+        caption: May 2022 - September 2022 *seasonal*
+        quote: >
+          Ontario’s knowledgeable travel counsellors can help you plan your trip with destinations, transportation, activities, accommodation and dining suggestions. 
+        description: | # this will include new lines to allow paragraphs
+            I Worked as a travel councillor giving help to anyone who required knowledge of Ontario. I did group projects, inventory management, and computer help. I work here seasonally and upon request.      
+      - title: Laptop Parts Canada
+        link: laptopparts.ca
+        sub_title: Shipping clerk
+        layout: left 
+        caption: February 2021 - July 2021 
+        quote: >
+          LaptopParts.ca is an e-tailer specializing in the distribution and sales of computer, laptop and tablet parts and accessories.
+        description: |
+          During the pandemic, I finished my twelfth-grade year very early by completing all my online courses as fast as possible. With everything being finished, I got myself a full-time job in shipping. I shipped out all kinds of electronics and did work on the computers within Excel, Shopify, and Shipstation. I worked here until it was time for me to get going to university.
+      - title: Online Tutoring
+        layout: left 
+        caption: March 2020 - Present *by request*
+        quote: >
+          Finding various client through Reddit and Discord
+        description: | 
+         When covid-19 took the world online I took advantage of this and began tutoring high school students online in subjects like history, English, chemistry, and biology.
+  
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Ottawa
+        caption: September 2021 - April 2025
+        sub_title: BA Psychology
+        quote: >
+          The University of Ottawa is the largest English-French bilingual university in the world. 
+        description: | # this will include new lines to allow paragraphs       
+         I am nearing the end of my second year here at the University of Ottawa. I can say that so far, it has been a great experience with kind, welcoming students and professors. The University of Ottawa has given me plenty of skills, including my ability to do effective Research and understand the human mind. The university has also given me excellent public speaking skills, which will be necessary for my life and career.
+      - layout: left
+        title: Char-lan District High School
+        caption: September 2017 - June 2021
+        sub_title: French Immersion Graduate
+        quote: >
+          Char-Lan District High School is nestled in the village of Williamstown, Ontario 
+        description: | # this will include new lines to allow paragraphs       
+         Some of my best memories were made at this high school. Our classes weren't big, and we were quite literally out in the middle of nowhere, but you won't find a community quite like the one you'd get here anywhere else.
+  
+  - title: Certificates & Courses
+    layout: list
+    content:
+      - layout: left
+        title: TCPS 2
+        sub_title: The Tri-Council Policy Statement
+        description: |
+          * Completed the Course on Research Ethics based on the Tri-Council Policy Statement - Ethical Conduct for Research Involving Humans.
+
+# Footer
+footer_show_references: true
+references_title: References and Certificates on Request
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
