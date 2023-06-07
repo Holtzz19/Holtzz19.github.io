@@ -137,8 +137,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Huza Law Office 
-        link: lawcornwall.com
+        title: Huza Law Office
         sub_title: Administrative Assistant
         caption: May 2023 - Ongoing
         description: |
