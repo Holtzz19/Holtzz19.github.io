@@ -133,6 +133,17 @@ content:
         description: | # this will include new lines to allow paragraphs       
          Some of my best memories were made at this high school. Our classes weren't big, and we were quite literally out in the middle of nowhere, but you won't find a community quite like the one you'd get here anywhere else.
   
+    - title: Volunteer Experience
+    layout: list
+    content:
+      - layout: left
+        title: Huza Law Office 
+        link: lawcornwall.com
+        sub_title: Administrative Assistant
+        caption: May 2023 - Ongoing
+        description: |
+          Aiding the Law firm with any administrative tasks required.
+  
   - title: Certificates & Courses
     layout: list
     content:
