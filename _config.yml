@@ -138,13 +138,13 @@ content:
     content:
       - layout: left
         title: Huza Law Office
-        link: destinationontario.com
+        link: lawcornwall.com
         sub_title: Administrative Assistant
         caption: May 2023 - Ongoing
         quote: >
           RELIABLE & TRUSTED LEGAL SERVICES 
         description: | # this will include new lines to allow paragraphs
-            I aid Huza Law Office with any adminstrative tasks required.       
+            I provide valuable assistance to Huza Law Office by efficiently managing a wide range of administrative tasks.       
   
   - title: Certificates & Courses
     layout: list
